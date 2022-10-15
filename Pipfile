@@ -10,6 +10,9 @@ markdown = "*"
 django-filter = "*"
 requests = "*"
 bs4 = "*"
+celery = "*"
+redis = "*"
+django-celery-beat = "*"
 
 [dev-packages]
 
