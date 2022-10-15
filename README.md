@@ -9,4 +9,4 @@ Running Setup for Project
 4. pipenv install to install all dependencies
 5. then cd pace and run ./manage.py migrate. To get all the required models
 6. then ./manage.py runserver it will run ur project on port 8000
-7. then in "pace_assignment" directory please run web_scrapper.py script to get data from website and make a post request to django backend in every 5 secs
+7. please run celery beat then worker it will update data in every 5 sec
